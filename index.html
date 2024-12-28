@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saniya Ikram Graphics Designer</title>
+  <link rel="shortcut icon" href="exploring-webgl-for-3d-graphics-in-web-design.webp" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="nav-header">
+    <div class="nav-brand">
+      <img src="">
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fourthPage"><a href="#section">CONTACT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="nav-screen">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="secondPage"><a href="#section">ABOUT</a></li>
+          <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+          <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="fullpage">
+
+
+
+    <div class="section aboutme" data-anchor="aboutme">
+      <div class="opaque-bg animated fadeInDown">
+        <h1 style="color:white">Designer <br>Saniyah Ikram<span style="color:#FF6363"></span> </h1>
+        <p><span id="holder"></span><span class="blinking-cursor"></span></p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <style>
+      body {
+          background-color: #fff; /* Set background to white */
+          font-family: Arial, sans-serif;
+      }
+      ul {
+          list-style-type: none; /* Remove bullet points */
+          padding-left: 0; /* Remove default padding */
+      }
+      li {
+          margin-bottom: 10px; /* Add space between list items */
+          display: flex; /* Align text in one line */
+          background-color: #f9f9f9; /* Light background for list items */
+          padding: 10px;
+          border-radius: 5px; /* Add some rounded corners */
+      }
+      li strong {
+          width: 250px; /* Set uniform width for the percentage text */
+          display: inline-block; /* Align percentage and description */
+      }
+      /* Different colors for each skill */
+      li:nth-child(1) strong {
+          color: #ff5733; /* Red */
+      }
+      li:nth-child(2) strong {
+          color: #33c4ff; /* Light blue */
+      }
+      li:nth-child(3) strong {
+          color: #33ff57; /* Green */
+      }
+      li:nth-child(4) strong {
+          color: #ff33a8; /* Pink */
+      }
+      li:nth-child(5) strong {
+          color: #ff8c33; /* Orange */
+      }
+      li:nth-child(6) strong {
+          color: #8c33ff; /* Purple */
+      }
+      li:nth-child(7) strong {
+          color: #33d1ff; /* Cyan */
+      }
+      li:nth-child(8) strong {
+          color: #33ffab; /* Mint green */
+      }
+      li:nth-child(9) strong {
+          color: #ffaa33; /* Gold */
+      }
+      li:nth-child(10) strong {
+          color: #33ffbb; /* Bright teal */
+      }
+      li:nth-child(11) strong {
+          color: #339bff; /* Royal blue */
+      }
+      li:nth-child(12) strong {
+          color: #ff3d33; /* Coral */
+      }
+      li:nth-child(13) strong {
+          color: #9b33ff; /* Lavender */
+      }
+      li:nth-child(14) strong {
+          color: #ffbd33; /* Amber */
+      }
+      li:nth-child(15) strong {
+          color: #6dff33; /* Lime green */
+      }
+      li:nth-child(16) strong {
+          color: #ff33c1; /* Magenta */
+      }
+      li:nth-child(17) strong {
+          color: #ff5733; /* Bright orange */
+      }
+  </style>
+  
+
+    <div class="section" data-anchor="skills">
+      <div class="content">
+        <h1 class="wow fadeInDown" data-wow-delay="0.2s">My Skills</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s"> </p>
+        <ul>
+          <li><strong>Adobe Photoshop (90%)</strong>: Advanced expertise in designing and enhancing visuals, including photo editing, manipulation, and retouching for professional use.</li>
+<li><strong>Canva (85%)</strong>: Proficient in producing high-quality designs for social media, presentations, and marketing materials with efficiency and creativity.</li>
+<li><strong>Figma (80%)</strong>: Skilled in developing intuitive and visually appealing user interface designs and prototypes for digital platforms.</li>
+<li><strong>Poster Design (90%)</strong>: Specialized in creating impactful and engaging posters tailored to events, promotions, and branding initiatives.</li>
+<li><strong>Banner Design (85%)</strong>: Experienced in crafting visually compelling banners optimized for websites, advertisements, and social media campaigns.</li>
+
+      </ul>
+
+      <h1 class="wow fadeInDown" data-wow-delay="0.2s">Mentioned Skills </h1>
+        <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+            <!-- Graphic Designer Skills -->
+  <div class="skillbar clearfix" data-percent="85%">
+    <div class="skillbar-title" style="background: #3F51B5;"><span>Photoshop</span></div>
+    <div class="skillbar-bar" style="background: #3F51B5;"></div>
+    <div class="skill-bar-percent">85%</div>
+  </div>
+
+  <div class="skillbar clearfix" data-percent="80%">
+    <div class="skillbar-title" style="background: #FF5722;"><span>Illustrator</span></div>
+    <div class="skillbar-bar" style="background: #FF5722;"></div>
+    <div class="skill-bar-percent">80%</div>
+  </div>
+
+  <div class="skillbar clearfix" data-percent="75%">
+    <div class="skillbar-title" style="background: #009688;"><span>UI/UX Design</span></div>
+    <div class="skillbar-bar" style="background: #009688;"></div>
+    <div class="skill-bar-percent">75%</div>
+  </div>
+  <div class="skillbar clearfix" data-percent="75%">
+    <div class="skillbar-title" style="background: #009688;"><span>UI/UX Design</span></div>
+    <div class="skillbar-bar" style="background: #009688;"></div>
+    <div class="skill-bar-percent">75%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="80%">
+    <div class="skillbar-title" style="background: #FF9800;"><span>Prototyping</span></div>
+    <div class="skillbar-bar" style="background: #FF9800;"></div>
+    <div class="skill-bar-percent">80%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="85%">
+    <div class="skillbar-title" style="background: #4CAF50;"><span>Wireframing</span></div>
+    <div class="skillbar-bar" style="background: #4CAF50;"></div>
+    <div class="skill-bar-percent">85%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="90%">
+    <div class="skillbar-title" style="background: #2196F3;"><span>Responsive Design</span></div>
+    <div class="skillbar-bar" style="background: #2196F3;"></div>
+    <div class="skill-bar-percent">90%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="70%">
+    <div class="skillbar-title" style="background: #E91E63;"><span>User Research</span></div>
+    <div class="skillbar-bar" style="background: #E91E63;"></div>
+    <div class="skill-bar-percent">70%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="65%">
+    <div class="skillbar-title" style="background: #9C27B0;"><span>Typography</span></div>
+    <div class="skillbar-bar" style="background: #9C27B0;"></div>
+    <div class="skill-bar-percent">65%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="75%">
+    <div class="skillbar-title" style="background: #795548;"><span>Color Theory</span></div>
+    <div class="skillbar-bar" style="background: #795548;"></div>
+    <div class="skill-bar-percent">75%</div>
+  </div>
+  
+  <div class="skillbar clearfix" data-percent="80%">
+    <div class="skillbar-title" style="background: #607D8B;"><span>Accessibility Design</span></div>
+    <div class="skillbar-bar" style="background: #607D8B;"></div>
+    <div class="skill-bar-percent">80%</div>
+  </div>
+
+  <div class="skillbar clearfix" data-percent="70%">
+    <div class="skillbar-title" style="background: #673AB7;"><span>Figma</span></div>
+    <div class="skillbar-bar" style="background: #673AB7;"></div>
+    <div class="skill-bar-percent">70%</div>
+  </div>
+
+  <div class="skillbar clearfix" data-percent="65%">
+    <div class="skillbar-title" style="background: #FFC107;"><span>Adobe InDesign</span></div>
+    <div class="skillbar-bar" style="background: #FFC107;"></div>
+    <div class="skill-bar-percent">65%</div>
+  </div>
+
+</div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <section id="projects" class="projects-section">
+      <h2 style="color: red;">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-item">
+          <img src="/WhatsApp Image 2024-12-28 at 19.59.00_fe30cbe7.jpg" alt="Project 1">
+          <p>Interactive 3D User Experience Design</p>
+      </div>
+      <div class="project-item">
+          <img src="/WhatsApp Image 2024-12-28 at 19.59.01_4981c7d0.jpg" alt="Project 2">
+          <p>3D Model Integration for E-Commerce</p>
+      </div>
+      <div class="project-item">
+          <img src="/WhatsApp Image 2024-12-28 at 19.59.02_1217f305.jpg" alt="Project 3">
+          <p>3D Visualization for Architecture</p>
+      </div>
+      <div class="project-item">
+          <img src="WhatsApp Image 2024-12-28 at 19.59.03_bc3f53ed.jpg" alt="Project 4">
+          <p>3D Interactive Landing Page Design</p>
+      </div>
+      <div class="project-item">
+          <img src="/WhatsApp Image 2024-12-28 at 19.59.04_20ab6d2a.jpg" alt="Project 5">
+          <p>Augmented Reality Website Features</p>
+      </div>
+      
+      </div>
+      
+      <div class="projects-grid" style="margin-top: 100px;">
+          <div class="project-item">
+              <img src="WhatsApp Image 2024-12-28 at 19.59.04_20ab6d2a.jpg" alt="Project 6">
+              <p>WebGL for Immersive Web Experiences</p>
+          </div>
+          <div class="project-item">
+              <img src="WhatsApp Image 2024-12-28 at 19.59.05_7cdb961a.jpg" alt="Project 7">
+              <p>Responsive 3D Web Interfaces</p>
+          </div>
+          <div class="project-item">
+              <img src="WhatsApp Image 2024-12-28 at 19.59.06_0c41036c.jpg" alt="Project 8">
+              <p>Gradient Styles in 3D UX Design</p>
+          </div>
+          <div class="project-item">
+              <img src="WhatsApp Image 2024-12-28 at 19.59.07_18f5eca9.jpg" alt="Project 9">
+              <p>3D Animation for User Engagement</p>
+          </div>
+          <div class="project-item">
+              <img src="WhatsApp Image 2024-12-28 at 19.58.59_3c1f9aa7.jpg" alt="Project 10">
+              <p>Dynamic 3D Graphics for Websites</p>
+          </div>
+      </div>
+      
+      <div class="projects-grid" style="margin-top: 100px;">
+          <div class="project-item">
+              <img src="360_F_412839178_eBThjVy75lyoTMkjcaSZSgeaH91M9bse.jpg" alt="Project 11">
+              <p>360-Degree Product View Websites</p>
+          </div>
+          <div class="project-item">
+              <img src="cheryl8555_3D_semi-realistic_illustration_style_children_boys_a_37f35aeb-67f1-4b4d-8367-f57c46001987.png" alt="Project 12">
+              <p>3D Character Animation for Brands</p>
+          </div>
+          <div class="project-item">
+              <img src="2017f7a27cd34ee188f7829a742346b6.jpeg" alt="Project 13">
+              <p>3D Games Integrated into Web Platforms</p>
+          </div>
+          <div class="project-item">
+              <img src="dynixi5mm4tuqa3rjvm3.jfif" alt="Project 14">
+              <p>3D Data Visualization Tools</p>
+          </div>
+          <div class="project-item">
+              <img src="1000_F_253862729_K4gqhtpxHxrUXB3l62MMablSxGt2wfb6.jpg" alt="Project 15">
+              <p>3D Animation for Marketing Campaigns</p>
+          </div>
+      </div>
+      
+  </div>
+
+  </section>
+
+
+    
+
+    <div class="section" data-anchor="contact">
+      <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <h1>CONTACT ME</h1>
+        <p>Whether you're interested in working with me or just want to say hello, <br>Instagram Link:https://www.instagram.com/designer_saniyah?igsh=YzA1c3R2cWU5OHN1</p>
+        <br>
+        <div class="contact-form">
+
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="hidden">
+              <input type="text" class="form-control" id="human" name="human" placeholder="">
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+            </div>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="section fp-auto-height">
+      <div class="footer">
+        <p>CONNECT WITH ME <br> Num :+92 3150712354 </p>
+        <div class="social-links">
+          <span><a href="https://www.linkedin.com/in/bradleyengelhardt" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+          <span><a target="_blank" href="https://twitter.com/bradengelhardt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
+          <span><a href="https://github.com/SquishyAndroid" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+          <span><a href="https://codepen.io/SquishyAndroid/pens/public/"><i class="fa fa-codepen fa-2x"></i></a></span>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+  
+</body>
+</html>
