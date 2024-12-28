@@ -212,7 +212,7 @@ p {
 /* Adjustments for mobile view */
 @media (max-width: 768px) { /* You can change the width to match your breakpoint */
   .aboutme {
-    background: url("/Is_Graphic_Design_A_Good_Career.avif") no-repeat; /* Use a different image if needed */
+    background: url("Is_Graphic_Design_A_Good_Career.avif") no-repeat; /* Use a different image if needed */
     background-size: contain; /* Change size to contain to ensure it's fully visible */
     padding-bottom: 100px; /* Adjust padding as needed */
     margin-bottom: 50px; /* Adjust margin as needed */
